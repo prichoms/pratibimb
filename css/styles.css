@@ -115,7 +115,7 @@ body {
   border: 2px solid #000;
 }
 
-#monument-tile, #literature-tile, #heritage-tile, #art-tile {
+.banner, #monument-tile, #literature-tile, #heritage-tile, #art-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -125,7 +125,7 @@ body {
   overflow: hidden;
   opacity: 70%;
 }
-#monument-tile:hover, #literature-tile:hover, #heritage-tile:hover, #art-tile:hover {
+.banner:hover, #monument-tile:hover, #literature-tile:hover, #heritage-tile:hover, #art-tile:hover {
   opacity: 100%;
 }
 #monument-tile {
@@ -147,7 +147,7 @@ body {
   background-position: center;
 }
 
-#monument-tile span, #literature-tile span, #heritage-tile span, #art-tile span {
+.banner span, #monument-tile span, #literature-tile span, #heritage-tile span, #art-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -167,6 +167,10 @@ body {
     background: url('../images/1200.jpg');
     height: 675px;
   }
+    #testimonials p
+  {
+    font-size: 1em;
+  }
 }
 
 /********** Medium devices only **********/
@@ -184,6 +188,14 @@ body {
   .container .jumbotron {
     background: url('../images/992.jpg') no-repeat;
     height: 558px;
+
+
+
+  }
+
+    #testimonials p
+  {
+    font-size: 1em;
   }
   /* End Home Page */
 }
@@ -194,6 +206,10 @@ body {
   .container .jumbotron {
     background: url('../images/768.jpg') no-repeat;
     height: 432px;
+  }
+  #testimonials p
+  {
+    font-size: 1em;
   }
   /* End Home Page */
 }
@@ -232,6 +248,11 @@ body {
     margin-bottom: 30px;
     text-align: center;
   }
+  #testimonials p
+  {
+    font-size: 1em;
+  }
+
   .panel-footer section:nth-child(3) {
     margin-bottom: 0; /* margin already exists on the whole row */
   }
@@ -245,7 +266,7 @@ body {
     margin-top: 30px;
     padding: 0;
   }
-  #monument-tile, #heritage-tile, #art-tile, #literature-tile {
+  .banner, #monument-tile, #heritage-tile, #art-tile, #literature-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -262,11 +283,81 @@ body {
   /* End Header */
   
   /* Home page */
-   #monument-tile, #heritage-tile, #art-tile, #literature-tile {
+   .banner, #monument-tile, #heritage-tile, #art-tile, #literature-tile {
     width: 280px;
     margin: 0 auto 15px;
-
   }
-
 }
 
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+#pageh2 p
+{
+  font-size: 7vw;
+  margin-bottom:0;
+  color: #000;
+  padding-bottom: 0;
+}
+
+#pageh2
+{
+  margin-bottom:50px;
+}
+
+#mb1
+{
+  background: url('../images/darshan.jpeg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb2
+{
+  background: url('../images/abhyaran.jpg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb3
+{
+  background: url('../images/temple.jpg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb4
+{
+  background: url('../images/kile.jpg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb5
+{
+  background: url('../images/mahal.jpg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb6
+{
+  background: url('../images/vigyan.jpeg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb7
+{
+  background: url('../images/waterfall.png') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
+
+#mb8
+{
+  background: url('../images/vichitra.jpg') no-repeat;
+  background-position: center;
+  background-size: 360px 250px;
+}
