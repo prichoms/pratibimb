@@ -21,7 +21,7 @@ body {
   background: url('../images/icon.png') no-repeat;
   width: 100px;
   height: 100px;
-  margin:0px,15px,0px,0px;
+  margin:15px 15px 0px 0px;
 }
 
 .navbar-brand {
