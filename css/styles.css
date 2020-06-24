@@ -21,7 +21,7 @@ body {
   background: url('../images/icon.png') no-repeat;
   width: 100px;
   height: 100px;
-  margin:30px 15px 0px 0px;
+  margin:15px 15px 0px 0px;
 }
 
 .navbar-brand {
@@ -60,6 +60,7 @@ body {
 }
 #nav-list a:hover {
   color: #006400;
+  transform: scale(1.5,1.5);
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -118,7 +119,7 @@ body {
 .banner, #monument-tile, #literature-tile, #heritage-tile, #art-tile {
   height: 250px;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   box-shadow: 0 0 50px #3F0C1F;
   position: relative;
   border: 2px solid #000;
@@ -127,6 +128,7 @@ body {
 }
 .banner:hover, #monument-tile:hover, #literature-tile:hover, #heritage-tile:hover, #art-tile:hover {
   opacity: 100%;
+  transform: scale(1.2,1.2);
 }
 #monument-tile {
   background: url('../images/mon.jpg') no-repeat;
