@@ -1,6 +1,6 @@
 # **_Pratibimb is a project of mine which aims in potrayal of our rich heritage through a website._**
 
-### This project is about the Indian culture whihc talks about  धरोहर,  साहित्य ,संस्कृति , कला.
+### This project is about the Indian culture which talks about  धरोहर,  साहित्य ,संस्कृति , कला.
 
 # Prerequisite for this project 
 
