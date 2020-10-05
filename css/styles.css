@@ -59,9 +59,10 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  color: #f9a602;
-  transform: scale(2);
-  transition: all 2s;
+  color: green;
+  -ms-transform: rotate(360deg); /* IE 9 */
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 #nav-list a span {
   font-size: 1.8em;
